@@ -44,4 +44,4 @@ context.set_source(surface7, 0, 0)
 context.paint
 
 surface.write_to_png('gen.png')
-surface.write_to_png(ARGV[0] + '.png')
+surface.write_to_png('data/' + ARGV[0] + '.png')
